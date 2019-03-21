@@ -3,7 +3,15 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase: {
+    apiKey: 'AIzaSyAEqThxyscfmwPbD9pAEr_UADqyiCgQQ08',
+    authDomain: 'chat-workshop-10842.firebaseapp.com',
+    databaseURL: 'https://chat-workshop-10842.firebaseio.com',
+    projectId: 'chat-workshop-10842',
+    storageBucket: 'chat-workshop-10842.appspot.com',
+    messagingSenderId: '288065573401'
+  }
 };
 
 /*
@@ -14,3 +22,4 @@ export const environment = {
  * on performance if an error is thrown.
  */
 // import 'zone.js/dist/zone-error';  // Included with Angular CLI.
+
